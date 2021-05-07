@@ -1,0 +1,29 @@
+{
+  "name": "sample",
+  "version": "0.0.1",
+  "type": "flogo:trigger",
+  "ref": "github.com/afarooqi8/sample",
+  "description": "trigger description",
+  "author": "asadullah_farooqi@mentor.com",
+  "settings":[
+    {
+      "name": "setting",
+      "type": "string",
+      "value": "default"
+    }
+  ],
+  "output": [
+    {
+      "name": "output",
+      "type": "string"
+    }
+  ],
+  "handler": {
+    "settings": [
+      {
+        "name": "handler_setting",
+        "type": "string"
+      }
+    ]
+  }
+}
